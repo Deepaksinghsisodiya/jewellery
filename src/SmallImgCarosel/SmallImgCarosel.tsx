@@ -198,7 +198,7 @@ const SmallImgCarosel = () => {
     </div>
   );
 };
-
+// TODO
 // const CustomNextArrow = (props: any) => {
 //   const { onClick } = props;
 //   return (

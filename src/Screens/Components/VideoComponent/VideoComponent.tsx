@@ -4,7 +4,6 @@ const VideoComponent = () => {
   return (
     <div>
          <div className="flex flex-col md:flex-row py-10 w-[90%] mx-auto gap-10">
-          {/* वीडियो सेक्शन */}
           <div className="w-full md:w-[70%] h-[40vh] md:h-[70vh]">
             <video
               src="https://videos.pexels.com/video-files/4004214/4004214-hd_1920_1080_25fps.mp4"
@@ -15,7 +14,6 @@ const VideoComponent = () => {
             />
           </div>
 
-          {/* टेक्स्ट सेक्शन */}
           <div className="w-full md:w-[40%] flex flex-col items-start justify-center gap-6">
             <div className="text-3xl md:text-4xl font-bold text-start">
               Make it a <br className="hidden md:block" /> diamond year

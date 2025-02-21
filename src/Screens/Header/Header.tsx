@@ -18,11 +18,7 @@ const Header = () => {
     <>
       <div>
         <SwiperComponent />
-        {/* icons */}
-
         <NavbarComponent />
-
-        {/* image or Slider */}
         <div>
           <div className="border-b border-gray-300"></div>
           <div className="w-[90%] mx-auto hidden sm:block">
@@ -38,12 +34,10 @@ const Header = () => {
           <Carousel />
         </div>
 
-        {/*6 Image */}
         <div>
           <ImagesComponent />
         </div>
 
-        {/* for every text and images */}
         <MiddleImageComponent />
       </div>
 

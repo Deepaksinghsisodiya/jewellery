@@ -18,7 +18,6 @@ const ImagesComponent = () => {
 
   return (
     <div className="w-[90%] mx-auto py-10">
-      {/* Mobile: 2 Columns, Desktop: Single Line Layout */}
       <div className="grid grid-cols-2 md:flex md:justify-center md:gap-6 gap-6 justify-items-center">
         {images.map((item, index) => (
           <div key={index} className="flex flex-col items-center">

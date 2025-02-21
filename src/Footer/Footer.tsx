@@ -4,7 +4,7 @@ import {
   FaInstagram,
   FaPinterest,
   FaTwitter,
-  FaYoutube
+  FaYoutube,
 } from "react-icons/fa";
 import flag from "../../src/Assets/usa-flag.png";
 import { sections } from "../Screens/DummyData/DummyData";
@@ -24,7 +24,6 @@ const Footer = () => {
   return (
     <div>
       <div className="bg-gray-100">
-        {/* 🔹 Join Section */}
         <div className="w-[90%] md:w-[60%] mx-auto py-6 text-left">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between">
             <div>
@@ -45,12 +44,9 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* 🔹 Border */}
         <div className="border-b mx-4 md:mx-8 border-gray"></div>
 
-        {/* 🔹 Footer Links */}
         <div className="w-[90%] mx-auto py-6">
-          {/* Mobile View */}
           <div className="md:hidden space-y-3">
             {sections.map((section, index) => (
               <div key={index} className="border-b pb-1">
@@ -78,7 +74,6 @@ const Footer = () => {
             ))}
           </div>
 
-          {/* Desktop View */}
           <div className="hidden md:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {sections.map((section, index) => (
               <ul
@@ -96,12 +91,9 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* 🔹 Border */}
         <div className="border-b mx-4 md:mx-8 border-gray"></div>
 
-        {/* 🔹 Bottom Section */}
         <div className="w-[90%] mx-auto py-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
-          {/* Left Section */}
           <div className="inline-flex flex-wrap gap-4 md:gap-8 items-center">
             <div>© ALL RIGHTS RESERVED. 2025 GK JEWELER</div>
             <div className="flex items-center gap-1">
@@ -115,7 +107,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Right Section */}
           <div className="inline-flex flex-wrap gap-4 md:gap-6 mt-4 md:mt-0 items-center">
             <div className="text-xs hover:underline cursor-pointer">
               Privacy Policy
@@ -124,10 +115,10 @@ const Footer = () => {
               Terms and Conditions
             </div>
             <div className="inline-flex gap-3 items-center text-gray-600">
-              {/* <FaFacebookF
+              <FaFacebookF
                 className="cursor-pointer hover:text-black"
                 size={15}
-              /> */}
+              />
               <FaInstagram
                 className="cursor-pointer hover:text-black"
                 size={15}
@@ -144,7 +135,6 @@ const Footer = () => {
                 className="cursor-pointer hover:text-black"
                 size={15}
               />
-          
             </div>
           </div>
         </div>

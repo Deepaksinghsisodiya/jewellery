@@ -7,16 +7,13 @@ const MiddleImageComponent = () => {
   return (
     <div>
       <div className="flex flex-col lg:flex-row gap-4 justify-between w-[75%] mx-auto items-center lg:items-start">
-        {/* Heading Section */}
         <div className="flex flex-row sm:flex-col text-center lg:text-start gap-1">
           <div className="text-lg sm:text-5xl font-bold">For every</div>
           <div className="text-lg sm:text-5xl font-bold">special</div>
           <div className="text-lg sm:text-5xl font-bold">moment</div>
         </div>
 
-        {/* Image & Video Section */}
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
-          {/* Pair 1 */}
           <img
             src={girlBracelet}
             alt=""
